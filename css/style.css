@@ -1,13 +1,63 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8em;
 }
 #head-group {
   width: 100%;
-  height: 130px;
+  height: 120px;
   background: ghostwhite;
-  
+  padding-top: 10px;
+}
+#top-nav {
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
 }
 #top-nav img {
-  height: 60px;
+  height: 55px;
+}
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  padding: 0 50px;
+  font-size: 1.5em;
+  border: 1px solid #D0CFCE;
+  outline: none;
+ }
+.search-icon{
+  position: relative;
+  float: right;
+  right: -100px;
+  top: -50px;
+}
+#country {
+  color: #aaa;
+}
+#country li {
+  list-style-type: none;
+}
+#country div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+#active-country {
+  background: #aaa;
+  color: white;
+  border-radius: 10%;
+}
+#bottom-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #aaa; 
+  padding-top: 10px;
+}
+#bottom-nav li{
+  text-transform: uppercase;
+  list-style-type: none;
 }
