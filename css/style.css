@@ -33,6 +33,7 @@ input#search-bar{
   float: right;
   right: -100px;
   top: -50px;
+  cursor: default;
 }
 #country {
   color: #aaa;
@@ -80,7 +81,7 @@ input#search-bar{
   width: 100%;
   margin-bottom: 50px;
   min-height: 500px;
-  background: url(/home/iykyvic/income/andela_bootcamp/Bootcamp2/day3/frontend/images/1.JPG) no-repeat;
+  background: url(../images/1.JPG) no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -88,7 +89,7 @@ input#search-bar{
 }
 #banner2 {
   position: relative;
-  background: url(/home/iykyvic/income/andela_bootcamp/Bootcamp2/day3/frontend/images/header-circle.png) no-repeat right -106px;
+  background: url(../images/header-circle.png) no-repeat right -106px;
   width: 800px;
   min-height: 500px;
   padding-top: 35px;
