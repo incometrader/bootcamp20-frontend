@@ -113,6 +113,7 @@ input#search-bar{
   width: 200px;
   background: #4A9E72;
   font-weight: bold;
+  color: white;
 }
 .btn-border {
   border: 2px solid #E9D460;
@@ -151,4 +152,74 @@ input#search-bar{
   position: absolute;
   right: -150%;
   width: 150px;
+}
+.middle-section {
+  margin: 70px;
+}
+#access-data {
+  width: 95%;
+  height: 300px;
+  border: 1px solid #aaa;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#data {
+  display: flex;
+}
+#fg {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding-right: 20px;
+  border-right: 1px dashed #aaa;
+}
+.spaced-txt {
+  font-size: 1.3em;
+  line-height: 30px;
+}
+#news {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+#news p {
+  color: #4A9E72;
+  margin-top: 0;
+  cursor: pointer;
+}
+#news p:hover {
+  color: greenyellow;
+}
+#news span {
+  color: #4A9E72;
+  cursor: pointer;
+}
+#news span:hover {
+  color: greenyellow;
+}
+#extras {
+  display: flex;
+}
+.button-wide {
+  margin-top: -60px;
+  margin-left: -20px;
+  height: 30px;
+  width: 350px;
+  background: #4A9E72;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 1.2em;
+}
+.states {
+  border: 1px dashed #aaa;
+  height: 30px;
+  min-width: 300px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 40px;
+  cursor: pointer;
 }
